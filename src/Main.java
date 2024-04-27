@@ -4,7 +4,7 @@ public class Main {
         System.out.println("Счет на телефоне до пополнения " + score);
         int deposite = 5000; // Cумма пополнения
         System.out.println("Cумма пополнения " + deposite);
-        if (deposite >= 1000) {
+        if (deposite > 1000) {
             float bonus = (float) (deposite * 0.01); // Сумма бонусов
             System.out.println("Сумма бонусов при пополнении " + bonus);
             int fullscore = (int) (score + deposite + bonus); // Сумма на счете, вместе с бонусами
